@@ -21,7 +21,7 @@ Working directory <=> Staging area <=> local repository<=> remote repository
 
 
 <details>
-<summary><h1>How to use git for creatng repositories for projects and hosting them</h1></summary>
+<summary><h3>How to use git for creatng repositories for projects and hosting them</h3></summary>
 <br>
 Prerequities =>
 Step 1: Setting up the enviornment by installing Git
