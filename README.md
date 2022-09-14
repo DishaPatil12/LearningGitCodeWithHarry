@@ -3,9 +3,33 @@
 ## NEU ID : **002768900**
 
 <details open>
-<summary>Want to ruin the surprise?</summary>
+<summary>#### How to use git for creatng repositories for projects and hosting them</summary>
 <br>
-Well, you asked for it!
+Prerequities =>
+Step 1: Setting up the enviornment by installing Git
+Step 2: Create repository and make it private
+
+
+Step 3: Creating SSH keys 
+        Introdution to SSH keys
+        You are giving control / access of our github account to your computer. For that you have to deploy a SSH key
+
+
+
+Step 4: Go inside generating SSH keys and create key using email id  
+        CMD =>  $ ssh-keygen -t ed25519 -C "patil.dis@northeastern.edu" [Refer to the link Generating new SSH keys]
+        This will generate a SSH key which we will deploy.
+
+Step 5: For adding SSH agent
+        CMD => eval "$(ssh-agent -s)"   	[ Refer to the link Adding your SSH key to the ssh-agent]
+
+Step 6: To add SSH private key to SSH agent 
+        CMD => ssh-add ~/.ssh/id_rsa       [ Refer to the link Adding your SSH key to the ssh-agent]
+
+Step 7: To deploy this SSH key to your github account
+        CMD =>cat ~/.ssh/id_rsa.pub   [Refer to link addition of SSH keys to your account ]
+        
+
 </details>
 
 <!--Italics -->
