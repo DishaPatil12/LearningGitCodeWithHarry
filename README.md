@@ -39,16 +39,13 @@ Step 5: To add SSH private key to SSH agent
 Step 6: To deploy this SSH key to your github account
         CMD =>cat ~/.ssh/id_rsa.pub   [Refer to link addition of SSH keys to your account ]
 
-                    [hi](https://hello.ca)
+[hi](https://hello.ca)
 
-                    [Generating new SSH keys](
-                    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+[Generating new SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-                    [Adding your SSH key to the ssh-agent]
-                    (https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+[Adding your SSH key to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-                    [addition of SSH keys to your account](
-                    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+[addition of SSH keys to your account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 
 </details>
