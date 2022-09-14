@@ -21,45 +21,24 @@ Workflow: Working directory <=> Staging area <=> local repository<=> remote repo
 
 <details>
 <summary><h3>How to use git for creatng repositories for projects and hosting them</h3></summary>
-<br>
 
-<br>
 Step 1: Setting up the enviornment by installing Git
-<br>
+
 
 Step 2:Creating SSH keys 
-Introdution to SSH keys
-You are giving control / access of our github account to your computer. For that you have to deploy a SSH key
+SSH keys are authentication credentials. By creating them tou are giving control / access of our github account to your computer. For that you have to deploy a SSH key
 
-<br>
+
 Step 3: CMD =>  $ ssh-keygen -t ed25519 -C "patil.dis@northeastern.edu" [Refer to the link Generating new SSH keys]
 This will generate a SSH key which we will deploy.
-<br>
+
 Step 4: For adding SSH agent
         CMD => eval "$(ssh-agent -s)"   	[ Refer to the link Adding your SSH key to the ssh-agent]
-
 Step 5: To add SSH private key to SSH agent 
         CMD => ssh-add ~/.ssh/id_rsa       [ Refer to the link Adding your SSH key to the ssh-agent]
-
 Step 6: To deploy this SSH key to your github account
         CMD =>cat ~/.ssh/id_rsa.pub   [Refer to link addition of SSH keys to your account ]
         
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -75,30 +54,8 @@ Step 6: To deploy this SSH key to your github account
                     [addition of SSH keys to your account](
                     https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-SSH Keys 
-You are giving control / access of our github account to your computer
-For that you have to deploy a SSH key
- 
 
-=>  $ ssh-keygen -t ed25519 -C "dishampatil@gmail.com" [Generating new SSH keys]
-This will generate a SSH key which we will deploy using the 
-
-
-=>eval "$(ssh-agent -s)"   	[ Adding your SSH key to the ssh-agent]
-This will add the ssh-agent in the background
-
-
- 
-=>ssh-add ~/.ssh/id_rsa   [ Adding your SSH key to the ssh-agent]
-You have added the SSH private key to SSH agent
-Now you have to just deploy this SSH key to your github account
-
-=>cat ~/.ssh/id_rsa.pub   [This is inside about addition of SSH keys to your account ]
-Insert this key to the SSH key box 
-
-
-
-
+</details>
 
 
 ###Git Command Line Basics###
