@@ -2,6 +2,17 @@
 ## NAME : **DISHA SUNIL PATIL**
 ## NEU ID : **002768900**
 
+<details><summary>Does not work</summary>
+[hi](https://hello.ca)
+</details>
+
+
+<details><summary>Does work</summary>
+
+[hi](https://hello.ca)
+
+</details>
+
 <details open>
 ###<summary>How to use git for creatng repositories for projects and hosting them</summary>
 <br>
