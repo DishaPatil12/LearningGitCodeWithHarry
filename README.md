@@ -48,14 +48,14 @@ Step 7: To deploy this SSH key to your github account
 
 
         Links:
-                    Generating new SSH keys
-                    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+                    [Generating new SSH keys](
+                    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-                    Adding your SSH key to the ssh-agent
-                    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+                    [Adding your SSH key to the ssh-agent]
+                    (https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-                    addition of SSH keys to your account:
-                    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+                    [addition of SSH keys to your account](
+                    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 SSH Keys 
 You are giving control / access of our github account to your computer
@@ -86,25 +86,25 @@ Insert this key to the SSH key box
 ###Git Command Line Basics###
 
 A] CREATING FILES AND DIRECTORIES
-1. touch filename.extension
-2. mkdir repository name 
+* touch filename.extension
+* mkdir repository name 
 
 A ] ADD FILES FROM WORKSPACE TO STAGING AREA using git add
 
-1. git add -A / git add .=> adding all the files
-2. git add a.txt =>add files individually
-3. git add a.txt b.txt  => add multiple files
-4. git add .* => if all the files have same extension
+* git add -A / git add .=> adding all the files
+* git add a.txt =>add files individually
+* git add a.txt b.txt  => add multiple files
+* git add .* => if all the files have same extension
 
 B] MOVING FILES FROM STAGING AREA TO LOCAL REPOSITORY using git commit
 
 Before committing you have to execute some configuration commands like who is committing the changes like user mail or user name
 config => name and email representing all the git repository in your local repository
 
-1. git init 
-2. git config --global user.email “username”
-3. git config --global user.name “name”
-4. git config --global user.name "fullname"
+* git init 
+* git config --global user.email “username”
+* git config --global user.name “name”
+* git config --global user.name "fullname"
 
 Already files are added in staging area so now add them into the remote repository
 
