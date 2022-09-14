@@ -32,10 +32,12 @@ SSH keys are authentication credentials. By creating them tou are giving control
 Step 3: CMD =>  $ ssh-keygen -t ed25519 -C "patil.dis@northeastern.edu" [Refer to the link Generating new SSH keys]
 This will generate a SSH key which we will deploy.
 
-Step 4: For adding SSH agent
-        CMD => eval "$(ssh-agent -s)"   	[ Refer to the link Adding your SSH key to the ssh-agent]
+Step 4: For adding SSH agent 
+<br> CMD => eval "$(ssh-agent -s)"   	[ Refer to the link Adding your SSH key to the ssh-agent]
+<br>
 Step 5: To add SSH private key to SSH agent 
         CMD => ssh-add ~/.ssh/id_rsa       [ Refer to the link Adding your SSH key to the ssh-agent]
+        <br>
 Step 6: To deploy this SSH key to your github account
         CMD =>cat ~/.ssh/id_rsa.pub   [Refer to link addition of SSH keys to your account ]
 
