@@ -2,6 +2,8 @@
 ## NAME : **DISHA SUNIL PATIL**
 ## NEU ID : **002768900**
 
+
+
 Introduction to Git
 Git is a distributed version control system.It is a best practice for managing and tracking changes to the software code by tracking every individual change by each contributor and helping prevent concurrent work from conflicting. It is utilized by software teams to manage changes to source code over time. It has features like Branching and merging,Traceability, Collaborative Coding, Security, Easy hosting and many more
 
@@ -50,12 +52,9 @@ Step 7: To deploy this SSH key to your github account
 SSH Keys 
 You are giving control / access of our github account to your computer
 For that you have to deploy a SSH key
-
-Go inside generating SSH keys and create key using email id  
+ 
 
 =>  $ ssh-keygen -t ed25519 -C "dishampatil@gmail.com" [Generating new SSH keys]
-
-
 This will generate a SSH key which we will deploy using the 
 
 
@@ -65,19 +64,11 @@ This will add the ssh-agent in the background
 
  
 =>ssh-add ~/.ssh/id_rsa   [ Adding your SSH key to the ssh-agent]
-
 You have added the SSH private key to SSH agent
 Now you have to just deploy this SSH key to your github account
+
 =>cat ~/.ssh/id_rsa.pub   [This is inside about addition of SSH keys to your account ]
-
-
-
-
-
-
-
-
-
+Insert this key to the SSH key box 
 
 
 
@@ -85,6 +76,57 @@ Now you have to just deploy this SSH key to your github account
 
 
 ###Git Command Line Basics###
+
+A] CREATING FILES AND DIRECTORIES
+1. touch filename.extension
+2. mkdir repository name 
+
+A ] ADD FILES FROM WORKSPACE TO STAGING AREA using git add
+
+1. git add -A / git add .=> adding all the files
+2. git add a.txt =>add files individually
+3. git add a.txt b.txt  => add multiple files
+4. git add .* => if all the files have same extension
+
+B] MOVING FILES FROM STAGING AREA TO LOCAL REPOSITORY using git commit
+
+Before committing you have to execute some configuration commands like who is committing the changes like user mail or user name
+config => name and email representing all the git repository in your local repository
+
+1. git init 
+2. git config --global user.email “username”
+3. git config --global user.name “name”
+4. git config --global user.name "fullname"
+
+Already files are added in staging area so now add them into the remote repository
+
+C] HOW TO MODIFY FILES USING GIT
+
+After altering , modifying files 
+Now these modifications are not part of your repository we haven't committed them 
+
+So now add them into the staging area and from there we can commit them into local repository
+
+
+=> git add . 
+=> commit -m “Modified the files a and b”
+
+
+
+D] MOVING FILES FROM STAGING AREA TO REMOTE REPOSITORY AREA
+
+
+git push origin master
+
+git commit -m “commit message”
+
+
+
+
+
+
+
+
 
 
 
