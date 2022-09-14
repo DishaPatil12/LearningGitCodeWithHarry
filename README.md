@@ -1,3 +1,10 @@
+
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+
 # WEB DESIGN AND USER EXPERIENCE ASSIGNMENT 1
 ## NAME : **DISHA SUNIL PATIL**
 ## NEU ID : **002768900**
@@ -5,14 +12,19 @@
 
 
 
+<p>WEB DESIGN AND USER EXPERIENCE ASSIGNMENT 1
+ NAME : **DISHA SUNIL PATIL**
+NEU ID : **002768900**</p>
 
-<!--Italics -->
+
+
+
 
 #*Introduction to Git*
 
 
 
-Git is a distributed version control system.It is a best practice for managing and tracking changes to the software code by tracking every individual change by each contributor and helping prevent concurrent work from conflicting. It is utilized by software teams to manage changes to source code over time. It has features like Branching and merging,Traceability, Collaborative Coding, Security, Easy hosting and many more
+<p>Git is a distributed version control system.It is a best practice for managing and tracking changes to the software code by tracking every individual change by each contributor and helping prevent concurrent work from conflicting. It is utilized by software teams to manage changes to source code over time. It has features like Branching and merging,Traceability, Collaborative Coding, Security, Easy hosting and many more</p>
 ___
 Main Workflow
 
