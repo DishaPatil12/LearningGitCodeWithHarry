@@ -112,6 +112,10 @@ git commit -m “commit message”
 
 
 
+ADD gitignore and branching too
+
+
+
 
 
 
