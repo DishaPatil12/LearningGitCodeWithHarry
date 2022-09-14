@@ -27,15 +27,16 @@ Workflow: Working directory <=> Staging area <=> local repository<=> remote repo
 <b>Step 1</b>: Setting up the enviornment by installing Git
 <b>Step 2</b>: Create repository and make it private
 
-
-<b>Step 3</b>:
+<strong>Step 3</strong>
+<br>
 Creating SSH keys 
 Introdution to SSH keys
 You are giving control / access of our github account to your computer. For that you have to deploy a SSH key
 
 
 
-<b>Step 4</b>
+<strong>Step 4</strong>
+<br>
 Go inside generating SSH keys and create key using email id  
 CMD =>  $ ssh-keygen -t ed25519 -C "patil.dis@northeastern.edu" [Refer to the link Generating new SSH keys]
 This will generate a SSH key which we will deploy.
