@@ -22,7 +22,7 @@ Workflow: Working directory <=> Staging area <=> local repository<=> remote repo
 <details>
 <summary><h3>How to use git for creatng repositories for projects and hosting them</h3></summary>
 <br>
-<h4>Prerequities<h4>
+
 <br>
 Step 1: Setting up the enviornment by installing Git
 Step 2: Create repository and make it private
@@ -36,7 +36,7 @@ You are giving control / access of our github account to your computer. For that
 
 
 
-<strong>Step 4</strong>
+
 <br>
 hello
 
