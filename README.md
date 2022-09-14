@@ -3,8 +3,10 @@
 ## NEU ID : **002768900**
 
 
+<!--Italics -->
+*#Introduction to Git#*
 
-Introduction to Git
+
 Git is a distributed version control system.It is a best practice for managing and tracking changes to the software code by tracking every individual change by each contributor and helping prevent concurrent work from conflicting. It is utilized by software teams to manage changes to source code over time. It has features like Branching and merging,Traceability, Collaborative Coding, Security, Easy hosting and many more
 
 Main Workflow
