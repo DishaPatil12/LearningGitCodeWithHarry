@@ -38,13 +38,9 @@ Step 5: To add SSH private key to SSH agent
         CMD => ssh-add ~/.ssh/id_rsa       [ Refer to the link Adding your SSH key to the ssh-agent]
 Step 6: To deploy this SSH key to your github account
         CMD =>cat ~/.ssh/id_rsa.pub   [Refer to link addition of SSH keys to your account ]
-        
 
+                    [hi](https://hello.ca)
 
-
-
-
-        Links:
                     [Generating new SSH keys](
                     https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
@@ -58,7 +54,10 @@ Step 6: To deploy this SSH key to your github account
 </details>
 
 
-###Git Command Line Basics###
+
+<details>
+<summary><h3>Git Command Line Basics</h3></summary>
+<br>
 
 A] CREATING FILES AND DIRECTORIES
 * touch filename.extension
@@ -110,7 +109,7 @@ git commit -m “commit message”
 
 
 
-
+</details>
 
 
 
