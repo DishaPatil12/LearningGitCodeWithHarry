@@ -3,8 +3,9 @@
 ## NEU ID : **002768900**
 
 <details open>
-<summary>#### How to use git for creatng repositories for projects and hosting them</summary>
+###<summary>How to use git for creatng repositories for projects and hosting them</summary>
 <br>
+hii
 Prerequities =>
 Step 1: Setting up the enviornment by installing Git
 Step 2: Create repository and make it private
