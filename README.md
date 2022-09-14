@@ -6,7 +6,7 @@
 
 
 <details>
-<summary><h3>Introduction to Git</h3></summary>
+<summary><h3>INTRODUCTION TO GIT</h3></summary>
 <br>
 
 
@@ -20,7 +20,7 @@ Workflow: Working directory <=> Staging area <=> local repository<=> remote repo
 
 
 <details>
-<summary><h3>How to use git for creatng repositories for projects and hosting them</h3></summary>
+<summary><h3>CREATING SSH KEYS AND PUSHING INTO A REMOTE REPOSITORY </h3></summary>
 
 Step 1: Setting up the enviornment by installing Git
 
@@ -53,7 +53,7 @@ Step 6: To deploy this SSH key to your github account
 
 
 <details>
-<summary><h3>Git Command Line Basics</h3></summary>
+<summary><h3>GIT COMMAND LINE BASICS</h3></summary>
 <br>
 
 A] CREATING FILES AND DIRECTORIES
